@@ -1,0 +1,31 @@
+//example c program for arithmetic operators 
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2, sum, difference, product, quotient, remainder;
+
+    // Input two numbers
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+
+    // Arithmetic operations
+    sum = num1 + num2;
+    difference = num1 - num2;
+    product = num1 * num2;
+    quotient = num1 / num2;
+    remainder = num1 % num2;
+
+    // Display results
+    printf("\nArithmetic Operations:\n");
+    printf("Sum: %d\n", sum);
+    printf("Difference: %d\n", difference);
+    printf("Product: %d\n", product);
+    printf("Quotient: %d\n", quotient);
+    printf("Remainder: %d\n", remainder);
+
+    return 0;
+}

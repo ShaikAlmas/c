@@ -1,0 +1,31 @@
+//example c program for assignment operators 
+
+#include <stdio.h>
+
+int main() {
+    int num1, num2;
+
+    // Assign values to variables
+    num1 = 10;
+    num2 = 5;
+
+    // Assignment operations
+    printf("Initial values: num1 = %d, num2 = %d\n", num1, num2);
+
+    num1 += num2; // Equivalent to num1 = num1 + num2
+    printf("After num1 += num2, num1 = %d\n", num1);
+
+    num1 -= num2; // Equivalent to num1 = num1 - num2
+    printf("After num1 -= num2, num1 = %d\n", num1);
+
+    num1 *= num2; // Equivalent to num1 = num1 * num2
+    printf("After num1 *= num2, num1 = %d\n", num1);
+
+    num1 /= num2; // Equivalent to num1 = num1 / num2
+    printf("After num1 /= num2, num1 = %d\n", num1);
+
+    num1 %= num2; // Equivalent to num1 = num1 % num2
+    printf("After num1 %%= num2, num1 = %d\n", num1);
+
+    return 0;
+}

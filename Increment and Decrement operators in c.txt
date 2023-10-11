@@ -1,0 +1,17 @@
+//example c program for increment and decrement operators
+#include <stdio.h>
+
+int main() {
+    int num = 5;
+
+    // Increment operator
+    printf("Original value: %d\n", num);
+    num++;
+    printf("After increment: %d\n", num);
+
+    // Decrement operator
+    num--;
+    printf("After decrement: %d\n", num);
+
+    return 0;
+}

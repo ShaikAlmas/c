@@ -1,0 +1,26 @@
+//example c program for Bitwise operators
+
+#include <stdio.h>
+
+int main() {
+    unsigned int num1, num2;
+
+    // Input two numbers
+    printf("Enter the first number: ");
+    scanf("%u", &num1);
+
+    printf("Enter the second number: ");
+    scanf("%u", &num2);
+
+    // Bitwise operations
+    printf("\nBitwise Operations:\n");
+    printf("%u & %u is %u\n", num1, num2, num1 & num2); // Bitwise AND
+    printf("%u | %u is %u\n", num1, num2, num1 | num2); // Bitwise OR
+    printf("%u ^ %u is %u\n", num1, num2, num1 ^ num2); // Bitwise XOR
+    printf("~%u is %u\n", num1, ~num1); // Bitwise NOT for num1
+    printf("~%u is %u\n", num2, ~num2); // Bitwise NOT for num2
+    printf("%u << 1 is %u\n", num1, num1 << 1); // Left shift by 1
+    printf("%u >> 1 is %u\n", num2, num2 >> 1); // Right shift by 1
+
+    return 0;
+}

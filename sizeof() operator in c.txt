@@ -1,0 +1,16 @@
+//example c program for special operator i.e sizeof() 
+//Sizeof Operator : The memory size (in bytes) of a data type or a variable can be found with the sizeof operator
+#include<stdio.h>
+int main()
+{
+int myInt;
+float myFloat;
+double myDouble;
+char myChar;
+
+printf("%lu\n", sizeof(myInt));
+printf("%lu\n", sizeof(myFloat));
+printf("%lu\n", sizeof(myDouble));
+printf("%lu\n", sizeof(myChar));
+
+}
